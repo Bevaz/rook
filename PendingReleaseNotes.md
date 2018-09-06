@@ -10,7 +10,7 @@ an example usage
 ### Ceph
 
 - Rook can now be configured to read "region" and "zone" labels on Kubernetes nodes and use that information as part of the CRUSH location for the OSDs.
-
+- LVM `dm` devices can now be used for Ceph OSDs.
 ## Breaking Changes
 
 ### <Storage Provider>
